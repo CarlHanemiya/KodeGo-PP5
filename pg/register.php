@@ -3,22 +3,22 @@
     <form id="frm-form" action="db/cruds/userRegistration.php" method="POST">
         <h1>REGISTRATION</h1>
         <div id="txt-input">
-            <input type="text" name="regFullname">    
+            <input type="text" name="regFullname" required>    
             <span>Fullname</span>
             <i></i>
         </div>
         <div id="txt-input">
-            <input type="text" name="regUsername">    
+            <input type="text" name="regUsername" required>    
             <span>Username</span>
             <i></i>
         </div>
         <div id="txt-input">
-            <input type="password" name="regPass">     
+            <input type="password" name="regPass" required>     
             <span>Password</span>
             <i></i>
         </div>
         <div id="txt-input">
-            <input type="password" name="regConfirmPass">     
+            <input type="password" name="regConfirmPass" required>     
             <span>Confirmed Password</span>
             <i></i>
         </div>
