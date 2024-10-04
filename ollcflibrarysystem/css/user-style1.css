@@ -1,0 +1,15 @@
+.user-main-content {
+    margin-left: 230px;
+    width: calc(100% - 460px);
+    padding: 20px;
+    flex: 1;
+    background-color: #ecf0f1;
+    height: calc(100vh - 120px);
+    position: relative;
+    overflow: auto;
+}
+
+.user-sub-content {
+    height: 98%;
+    width: 100%;
+}

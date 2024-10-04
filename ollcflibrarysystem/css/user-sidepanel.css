@@ -1,0 +1,108 @@
+.sidepanel {
+    width: 230px;
+    background-color: #e0e0e0;
+    position: absolute;
+    height: calc(100vh - 120px);
+    padding: 0px 10px;
+    overflow: scroll;
+}
+
+#side-panel-right {
+    top: 0%;
+    right: 0%;
+    position: absolute;
+}
+
+.sidepanel .search-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: auto;
+}
+
+.search-wrapper h2 {
+    text-align: center;
+    color: #333;
+}
+
+.search-wrapper form {
+    background-color: transparent;
+    width: 100%;
+}
+
+.search-wrapper label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.search-wrapper input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    height: 35px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.search-wrapper button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2238f7;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.search-wrapper button:hover {
+    background-color: #3f4ed3;
+}
+
+.search-wrapper input[type="text"]:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.sidepanel h3 {
+    margin-top: 40px;
+    margin-left: 5px;
+    color: #c57710;
+}
+
+.sidepanel ul {
+    margin-left: 20px;
+}
+
+.sidepanel ul li {
+    text-align: left;
+    position: relative;
+    margin-left: 5px;
+}
+
+.sidepanel ul p {
+    text-align: left;
+    font-family: "verdana", sans-serif;
+    font-size: 12px;
+    color: rgb(49, 49, 49);
+    margin: 5px;
+}
+
+.sidepanel ul li a:hover {
+    background-color: #3082d4;
+}
+
+.sidepanel a {
+    margin-top: 5px;
+    color: rgb(71, 71, 71);
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+    font-family: "verdana", sans-serif;
+}

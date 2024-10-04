@@ -1,0 +1,7 @@
+Current {
+    create pop-up form for admin (adding/updating records);
+}
+
+>>>> Admin search bar (searching record)
+>>>> Total Count: (#) of books in 'List of book';
+>>>> design for admin reports/statistic;

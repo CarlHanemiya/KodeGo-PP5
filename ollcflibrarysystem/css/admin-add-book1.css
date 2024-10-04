@@ -1,0 +1,88 @@
+.form-container {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.form-container h1 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: "verdana", sans-serif;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.add-book label {
+    font-family: "verdana", sans-serif;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add-book input[type="text"],
+.add-book input[type="number"],
+.add-book input[type="url"],
+.add-book textarea,
+.add-book select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-book input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    background-color: white;
+}
+
+.add-book textarea {
+    height: 162px;
+    resize: none;
+}
+
+.add-book button {
+    width: 150px;
+    margin: 30px 13px;
+    padding: 10px;
+    float: left;
+    background-color: #2238f7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-book button:hover {
+    background-color: #3c4de6;
+}
+
+#add-book-cancel {
+    width: 150px;
+    margin: 30px 13px;
+    padding: 10px;
+    float: left;
+    background-color: #a72a2a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

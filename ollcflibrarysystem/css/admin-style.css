@@ -1,0 +1,27 @@
+.main-content {
+    margin-left: 230px;
+    width: calc(100% - 230px);
+    padding: 20px;
+    flex: 1;
+    background-color: #ecf0f1;
+    height: calc(100vh - 120px);
+    position: relative;
+    overflow: auto;
+}
+
+.main-content .main-content-title {
+    color: gray;
+    font-size: 12px;
+    margin: 0.5%;
+}
+
+.main-content .main-content-title span {
+    color: rgb(82, 82, 82);
+    font-size: 16px;
+    font-family: "verdana", sans-serif;
+}
+
+.sub-content {
+    height: 98%;
+    width: 100%;
+}

@@ -1,0 +1,107 @@
+.user-home-content-wrapper {
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.user-home-top-borrow {
+    height: 230px;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+.user-home-latest-arrival {
+    height: 230px;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.user-home-content-wrapper hr {
+    border: 1px solid transparent;
+    width: 100%;
+}
+
+.user-home-content-wrapper .txt-rules-desc {
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: "verdana", sans-serif;
+    margin: 0px 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.user-home-content-wrapper .txt-rules-item {
+    font-size: 12px;
+    padding: 10px;
+    font-family: "verdana", sans-serif;
+    margin: 0px 20px;
+    color: rgb(59, 59, 59);
+}
+
+.user-home-content-wrapper .txt-rules-item span {
+    font-weight: 700;
+}
+
+.user-home-content-wrapper .hr-title {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(219, 219, 219);
+    width: 100%;
+}
+.user-home-content-wrapper h3 {
+    text-align: left;
+    color: #c57710;
+}
+
+.book-item {
+    border-radius: 10px;
+    height: 230px;
+    width: 15%;
+    float: left;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.book-item p {
+    position: absolute;
+    background-color: #c57710;
+    width: 30px;
+    padding: 7px 0px;
+    height: 30px;
+    margin-top: -5px;
+    margin-left: -5px;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.book-item img {
+    height: 80%;
+    width: 100%;
+    background: rgb(221, 220, 220);
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.book-item h5 {
+    text-align: center;
+    color: rgb(124, 124, 124);
+    font-family: "verdana", sans-serif;
+    font-size: 10px;
+    max-width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+}
